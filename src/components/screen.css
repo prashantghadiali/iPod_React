@@ -1,0 +1,68 @@
+/* global screen class inside screen component */
+
+.screen {
+  position: absolute;
+  left: 2.4%;
+  top: 5%;
+  width: 208px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.screen-music{
+  position: absolute;
+  width: 208px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.side-menu {
+  z-index: 2;
+  width: 47%;
+  position: absolute;
+  padding-top: 5px;
+  background-color: aliceblue;
+  height: 175px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.side-menu li {
+  list-style-type: none;
+  margin-top: 2px;
+  margin-left: 5px;
+  text-align: left;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.side-menu .active {
+  background-color: #153c77;
+  color: white;
+  transition: 0.1s ease-out;
+}
+
+.display {
+  position: absolute;
+  background-image: url("/public/ncs.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 8px;
+  width: 208px;
+  height: 180px;
+}
+
+.display h2 {
+  position: absolute;
+  left: 24%;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+.display img {
+  width: 208px;
+  height: 180px;
+  border-radius: 8px;
+}
